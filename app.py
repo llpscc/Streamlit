@@ -156,7 +156,7 @@ if st.session_state.active_tab == "EDA":
         
         # Вставляем как изображение
         image = Image.open(buf)
-        st.image(image, caption="Матрица корреляции", width=600)
+        st.image(image, caption="Матрица корреляции", width=800)
         
 elif st.session_state.active_tab == "Model":
     st.subheader("Введите данные или загрузите CSV файл для расчета стоимости автомобилей")   
