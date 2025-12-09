@@ -151,7 +151,7 @@ if st.session_state.active_tab == "EDA":
         
         # Сохраняем график в буфер
         buf = io.BytesIO()
-        fig.savefig(buf, format="png", dpi=400, bbox_inches='tight') 
+        fig.savefig(buf, format="png", dpi=600, bbox_inches='tight') 
         buf.seek(0)
         
         # Вставляем как изображение
